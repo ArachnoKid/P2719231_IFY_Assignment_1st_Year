@@ -1,0 +1,135 @@
+﻿* {
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+body {
+    background: linear-gradient(66deg, rgba(81,25,145,1) 0%, rgba(40,40,237,1) 35%, rgb(40, 108, 211) 85%);
+}
+img {
+    align-self: center;
+    height: 35%;
+    width: 35%;
+    animation: ease-in;
+}
+#title {
+    color: rgb(85,75,244);
+    text-align: center;
+    font-size: 25px ;
+    margin-top: 10px;
+}
+
+.form-container {
+    width: 590px;
+    height: auto;
+    color: rgb(85,75,244);
+    padding: 25px;
+    background-color: white;
+    box-shadow: 1px 1px black;
+    border-radius: 20px;
+    margin-left: 32%;
+}
+
+input {
+    border: none;
+    background: none;
+    color: rgb(85,75,244);
+}
+
+.long-input {
+    width: 410px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(85,75,244);
+}
+
+.mid-input {
+    width: 350px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(85,75,244);
+}
+.extra-long-input {
+    width: 410px;
+    border: none;
+    outline: auto;
+    border-bottom: 1px solid rgb(85,75,244);
+    height: 105px;
+    text-align:inherit;
+}
+
+
+.short-input {
+    width: 45px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(85,75,244);
+}
+
+::placeholder {
+    color: rgb(85,75,244);
+}
+
+label {
+    color: rgb(85,75,244);
+}
+
+legend {
+    color: rgb(85,75,244);
+    text-align: center;
+    font-size: 22px;
+}
+
+.register {
+    align-self: center;
+    border-radius: 30px;
+    outline: none;
+    width: 100%;
+    border: none;
+    font-weight: bold;
+    background-color: rgb(85,75,244);
+    color: white;
+    font-size: 26px;
+}
+.login {
+    align-self: center;
+    border-radius: 30px;
+    outline: none;
+    width: 100%;
+    border: none;
+    font-weight: bold;
+    background-color: rgb(85,75,244);
+    color: white;
+    font-size: 26px;
+}
+
+fieldset {
+    align-items: center;
+    width: auto;
+    height: auto;
+    padding: auto;
+    color: rgb(85,75,244);
+    font-weight: 600;
+    border: 1px solid rgb(85,75,244);
+    padding-left: 67px;
+}
+
+select {
+    text-decoration: none;
+    background: none;
+    border: none;
+    color: rgb(85,75,244);
+}
+.link{
+    text-align:center;
+}
+#charity {
+    border-bottom: 1px solid rgb(85,75,244);
+}
+
+option {
+    border: thin;
+    outline: 1px;
+    background: none;
+    box-shadow: 1px;
+}
